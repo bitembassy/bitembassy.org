@@ -9,6 +9,7 @@ url: https://bitembassy.github.io/bitembassy.org/
 baseurl: https://bitembassy.github.io/bitembassy.org/
 root: /bitembassy.org/
 theme: landscape
+twitter: BitcoinemBassy
 
 deploy:
   type: git
