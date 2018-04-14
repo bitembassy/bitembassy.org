@@ -1,0 +1,27 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+title: Bitembassy TLV
+author: Bitembassy TLV
+timezone: IST
+url: http://www.bitembassy.org/
+theme: landscape
+
+deploy:
+  type: rsync
+  host: cobit.community
+  user: cobit
+  root: /home/cobit/www/ver1
+
+markdown:
+  render:
+    html: true
+    linkify: true
+    typographer: true
+  anchors:
+    level: 2
+
+stylus:
+  compress: true
+  include css: true

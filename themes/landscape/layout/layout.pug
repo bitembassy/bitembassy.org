@@ -1,0 +1,83 @@
+doctype html5
+
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  base(href=url_for(''))
+
+  title= (page.title ? page.title + ' | ' : '') +  config.title
+
+  if page.description || config.description
+    meta(name='description' content=page.description || config.description)
+
+  meta(property='og:site_name', content=config.title)
+
+  if page.share_img || config.share_img
+    meta(property='og:image', content=url_for(page.share_img || config.share_img))
+
+  if config.twitter
+    meta(name='twitter:site', content='@'+config.twitter)
+  if config.twitter_card_large
+    meta(name='twitter:card', content='summary_large_image')
+
+  != css('css/style.css')
+  if page.css
+    != css('css/' + page.css)
+
+body.home.page.page-id-7.page-template-default
+  #page.hfeed.site
+
+    header#masthead.site-header(role='banner')
+      include _nav.pug
+      #logo(style='top:80px;')
+        a(href='http://www.bitembassy.org/', title='Bitembassy TLV', rel='home')
+          h2.site-title(style='color:#FFFFFF;')
+            | Bitcoin emBassy TLV
+            br
+            span.hebrew שגרירות הביטקוין
+          img(style='align:center;', src='img/logo-inverted.png', width='96', height='80')
+
+    #main.site-main
+      #primary.content-area
+        != body
+
+      #secondary.widget-area(role='complementary')
+        #left-sidebar
+          aside#text-7.widget.widget_text
+            .textwidget
+              p(style='text-align:center;') Bitembassy on Twitter
+              a.twitter-timeline(href='https://twitter.com/BitcoinemBassy', data-widget-id='472740283365351425') Tweets by @BitcoinemBassy
+              script.
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+        #middle-sidebar
+          aside#text-10.widget.widget_text
+            .textwidget
+              div(style='text-align:center;')
+                | Reach Us #[br]#[br]
+                | Ahuzat Bayit St 1, Tel Aviv #[br]
+                | info@bitembassy.org #[br]
+                a(href='http://www.bitembassy.org/reach-us/#hours') Opening hours
+              iframe(style='border: 0;', src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3381.168992160311!2d34.7704751!3d32.064677700000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4c9ccdbe516d%3A0x4d9c7e6a98430871!2sAhuzat+Bayit+St+1!5e0!3m2!1sen!2s!4v1400794312941', width='100%', height='260', frameborder='0')
+        #right-sidebar
+          aside#text-5.widget.widget_text
+            .textwidget
+              p(style='text-align:center;') Bitembassy on Facebook
+              iframe(src='//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fbitcoin.embassy.tlv&width=280&height=395&colorscheme=light&show_faces=false&header=false&stream=true&show_border=true&appId=278520728990806', scrolling='no', frameborder='0', style='border:none; overflow:hidden; width:325px; height:395px;', allowtransparency='true')
+
+  footer#colophon.site-footer(role='contentinfo')
+    .site-info
+      span(style='font-size:0.75em;')
+        | Exchange rate brought to you by 
+        a(href='http://bitcoinaverage.com/', target='blank') BitcoinAverage Price Index
+      br
+      |       Bitcoin emBassy TLV, Since 2013
+      span.sep  
+      a(href='http://www.bitembassy.org/contact') Contact us
+      br
+      a(rel='license', href='http://creativecommons.org/licenses/by-nc/4.0/')
+        img(alt='Creative Commons License', style='border-width:0;margin-top:1em;', src='https://i.creativecommons.org/l/by-nc/4.0/88x31.png')
+
+script(src='js/jquery.min.js')
+script(src='js/bootstrap.min.js')
+script(src='js/script.js')

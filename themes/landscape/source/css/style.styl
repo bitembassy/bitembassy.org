@@ -1,0 +1,45 @@
+@import 'theme.css'
+@import 'site'
+
+.clearfix:after
+    content " "
+    display block
+    clear both
+
+.split
+  .left, .right
+    width 45%
+    padding 1%
+
+  .left
+    float left
+  .right
+    float right
+
+.manifest
+  margin-bottom 60px
+
+  em
+    font-size 0.7em
+
+
+.person
+  padding-bottom 1em
+
+  .pic
+    width 150px
+    display table-cell
+    vertical-align middle
+    text-align center
+
+    img
+      width 120px
+
+    .split &, .split & img
+      width 100px
+
+  p
+    display table-cell
+    padding 0 5%
+    text-align  justify
+

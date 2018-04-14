@@ -1,0 +1,83 @@
+---
+title: About
+---
+
+mixin person(pic, name, url)
+  .person.clearfix
+    a.pic(href=url): img(src='img/people/'+pic)
+    p #[strong= name] – 
+      block
+  hr
+
+.center
+  :markdown-it
+    The Bitcoin emBassy TLV is a grassroots mission to [offer a location](http://www.bitembassy.org/reach-us/)
+    where the community and all the enthusiasts can use, and organizes a variety of
+    [events and projects](http://www.bitembassy.org/projects/) for the community.
+    At the Bitcoin emBassy TLV all are welcome to share and talk about the decentralized digital currency.
+
+
+  p
+    a.white-button(href='http://www.bitembassy.org/gallery/') Photos
+    = ' '
+    a.white-button(href='http://www.bitembassy.org/manifest/') Our manifest
+    = ' '
+    a.white-button(href='http://www.bitembassy.org/press/') Press
+
+  h2 The Ambassadors
+
++person('ayal-segev1.jpg', 'Ayal Segev', 'http://www.yona3.com/').
+  Founder of the Bitcoin emɃassy TLV and a core member of the Israeli bitcoin community.
+  Architect, artist and co-founder of yona|3 architecture studio.
+
++person('gil-assayag-150x150.jpg', 'Gil Assayag', 'https://www.facebook.com/gil.assayag').
+  programmer, security expert, biologist, and all around friendly guy,
+  Gil Assayag spends much of his time helping the community for free, as well as leading workshops at the emBassy.
+
++person('asaf.jpg', 'Assaf Bahat').
+  Bitcoin evangelist, coder, believes in the crypto revolution. Loves the embassy.
+
++person('eli-sklar.jpg', 'Eli Sklar', 'http://www.linkedin.com/in/sklar').
+  Started a number of projects in the bitcoin ecosystem, created and currently managing the Israeli bitcoin community and
+  co-founded the Israeli Bitcoin Foundation. Designer, developer and hacker.
+
++person('sarah.png', 'Sarah Wisner').
+  Enthusiast & activist , here to watch the future flourish live at our door step and help people connect.
+  Saving my coins for space travel.
+
++person('gitai-zach.jpg', 'Gitai Zach', 'http://il.linkedin.com/in/gitaizakh').
+  Co-founder (& co-manager) at the Bitcoin emɃassy, founder of Byte (Cryptocurrency Innovation Lab).
+  Nice guy & people person, tech-enthusiastic, believer and much more. Always a student.
+
++person('Gadi.png', 'Gadi Ruschin').
+  has over 10 years of experience in the global trading and the service providers sector for the energy and textile fields.
+  Ruschin owns trading offices in Shanghai, Cairo and Tel-Aviv and is a supplier for some of the biggest brands in textile.
+  Ruschin is a co-founder and CEO of OGY financial services LTD and is very active in the bitcoin community.
+
+.split.clearfix
+  .left
+    h3.center Honorary Ambassadors
+
+    +person('meni-rosenfeld.jpg', 'Meni Rosenfeld', 'http://il.linkedin.com/in/menir').
+      founder of the Israeli community and the Israeli Bitcoin Association,
+      Meni Rosenfeld is the most respected member of our community and we are proud to honor him.
+
+    +person('ron-gross.jpg', 'Ron Gross', 'http://www.chiefninjaofficer.com/').
+      Continuously involved with Bitcoin since March 2011, spreading the word, knowledge, and love of Bitcoin.
+      Ron co-founded the Israeli Bitcoin community and foundation.
+      As of June 2014 Ron is the Co-Founder and Executive Director of the Mastercoin project.
+
+    +person('jonathan-rouach.jpg', 'Jonathan Rouach', 'https://www.linkedin.com/in/jonathanrouach').
+      Founder of Bits of Gold, the largest bitcoin exchange in Israel.
+      Jonathan Rouach is an experienced developer, manager, and entrepreneur.
+
+  .right
+    h3.center Former Ambassadors
+
+    +person('moran-shaked.jpg', 'Moran Shaked', 'http://www.linkedin.com/pub/moran-shaked/65/109/a09').
+      founder of ‘Miss Bitcoin’ and the founder of Buy The Way.
+      A copywriter & graphic designer with over a decade’s experience in brand promotion, advertising concepts and social network management.
+
+    +person('ariel-horwitz.jpg', 'Ariel Horwitz', 'http://ariel.ninja/')
+      Founder of AlefBit, former community manager for the IBA, amBassador, and long time activist of the Israeli bitcoin community.
+      Ariel deeply believes in decentralized technologies and is currently paying full attention to crypto-finnacial technologies.
