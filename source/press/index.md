@@ -4,7 +4,7 @@ title: Press
 
 <div class="center">
 
-[7 Days Newspaper](http://www.bitembassy.org/wp-content/uploads/2014/08/7-Days-Bitcoin-2014-08-15.pdf)
+[7 Days Newspaper](press/7-Days-Bitcoin-2014-08-15.pdf)
 
 [Channel 2 news](http://www.mako.co.il/news-channel2/Channel-2-Newscast/Article-1e7968297278641004.htm)
 
