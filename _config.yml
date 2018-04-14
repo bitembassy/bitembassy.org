@@ -6,6 +6,7 @@ title: Bitembassy TLV
 author: Bitembassy TLV
 timezone: IST
 url: https://bitembassy.github.io/bitembassy.org/
+root: /bitembassy.org/
 theme: landscape
 
 deploy:
