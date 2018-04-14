@@ -5,14 +5,13 @@
 title: Bitembassy TLV
 author: Bitembassy TLV
 timezone: IST
-url: http://www.bitembassy.org/
+url: https://bitembassy.github.io/bitembassy.org/
 theme: landscape
 
 deploy:
-  type: rsync
-  host: cobit.community
-  user: cobit
-  root: /home/cobit/www/ver1
+  type: git
+  repo: git@github.com:bitembassy/bitembassy.org.git
+  branch: gh-pages
 
 markdown:
   render:
