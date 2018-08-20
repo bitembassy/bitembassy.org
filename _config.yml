@@ -5,9 +5,9 @@
 title: Bitembassy TLV
 author: Bitembassy TLV
 timezone: IST
-url: https://bitembassy.github.io/bitembassy.org/
-baseurl: https://bitembassy.github.io/bitembassy.org/
-root: /bitembassy.org/
+url: https://www.bitembassy.org/
+baseurl: https://www.bitembassy.org/
+root: /
 theme: landscape
 twitter: BitcoinemBassy
 
