@@ -1,5 +1,6 @@
 ---
 title: Press
+alias: press/index.html
 ---
 
 <div class="center">

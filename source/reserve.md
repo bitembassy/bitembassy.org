@@ -1,5 +1,6 @@
 ---
 title: Reserve The emBassy
+alias: reserve/index.html
 ---
 
 We are always glad to put the emBassyTLV to good use.

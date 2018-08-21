@@ -1,5 +1,6 @@
 ---
 title: Donate
+alias: donate/index.html
 ---
 
 <div class="center">

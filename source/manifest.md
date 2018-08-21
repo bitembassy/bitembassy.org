@@ -1,5 +1,6 @@
 ---
 title: Manifest
+alias: manifest/index.html
 ---
 
 <div class="manifest split">
