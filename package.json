@@ -2,6 +2,10 @@
   "name": "bitembassy.org",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "server": "hexo server",
+    "deploy": "hexo deploy -g"
+  },
   "hexo": {
     "version": "3.7.1"
   },
