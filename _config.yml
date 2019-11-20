@@ -16,6 +16,9 @@ category_dir: ''
 
 per_page: 0
 
+category_titles:
+  socratic: Socratic Seminars
+
 deploy:
   type: git
   repo: git@github.com:bitembassy/bitembassy.org.git
