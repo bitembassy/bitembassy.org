@@ -1,0 +1,11 @@
+article.hentry
+
+  header.entry-header
+    h1.entry-title= config.category_titles[page.category] || page.category
+
+  != page.content
+
+  .entry-content
+    ul
+      each post in page.posts.toArray()
+        li: a(href=post.path)= post.title

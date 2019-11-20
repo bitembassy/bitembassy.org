@@ -10,6 +10,12 @@ root: /
 theme: landscape
 twitter: BitcoinemBassy
 
+new_post_name: :category/:year-:month-:day-:title.md
+permalink: :category/:year-:month-:day-:title.html
+category_dir: ''
+
+per_page: 0
+
 deploy:
   type: git
   repo: git@github.com:bitembassy/bitembassy.org.git

@@ -12,7 +12,10 @@
   "dependencies": {
     "hexo": "^4.0.0",
     "hexo-deployer-git": "^2.1.0",
+    "hexo-directory-category": "^1.0.7",
+    "hexo-filename-date": "^0.1.0",
     "hexo-generator-alias": "^0.1.3",
+    "hexo-generator-category": "^1.0.0",
     "hexo-renderer-markdown-it": "^3.4.1",
     "hexo-renderer-pug": "^1.0.0",
     "hexo-renderer-stylus": "^1.1.0",
