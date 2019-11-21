@@ -1220,7 +1220,7 @@ a.comment-reply-link:hover {
 	#main {
 		max-width:1000px;
 		margin:0 auto;
-		padding: 0em;
+		padding: 1em 1.5em;
 	}
 	#left-sidebar{
 		float:none;
