@@ -1,7 +1,5 @@
 -
-  page_title = page.title
-           || (page.category && config.category_titles[page.category] || page.category)
-           || page.tag
+  page_title = page.title || page.category || page.tag
 
 doctype html5
 
