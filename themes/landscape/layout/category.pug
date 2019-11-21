@@ -5,14 +5,7 @@ article.hentry
   header.entry-header
     h1.entry-title= page.title || page.category
 
-  != page.content
-
-  .entry-content
-    .split
-      .left: h2 Seminars:
-      .right.hebrew: h2 סמינרים:
-
-  hr.floatclear
+  .entry-content!= page.content
 
   .entry-content
     ul
