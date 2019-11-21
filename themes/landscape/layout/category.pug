@@ -8,6 +8,13 @@ article.hentry
   != page.content
 
   .entry-content
+    .split
+      .left: h2 Seminars:
+      .right.hebrew: h2 סמינרים:
+
+  hr.floatclear
+
+  .entry-content
     ul
       each post in posts.toArray()
         li: a(href=post.path)= post.title
