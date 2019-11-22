@@ -9,6 +9,8 @@ hexo.extend.filter.register('before_post_render', data => {
     if (matches) {
       data.title = `Socratic Seminar ${matches[1]} - ${data.date.format('MMM Do YYYY')}`
     }
+
+    data.css = 'socratic.css'
   }
   return data
 })
