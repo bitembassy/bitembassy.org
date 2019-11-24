@@ -6,7 +6,7 @@ alias: about/index.html
 mixin person(pic, name, url)
   .person.clearfix
     a.pic(href=url): img(src='img/people/'+pic)
-    p #[strong= name] – 
+    p #[strong= name] –
       block
   hr
 
@@ -37,10 +37,6 @@ mixin person(pic, name, url)
 
 +person('asaf.jpg', 'Assaf Bahat').
   Bitcoin evangelist, coder, believes in the crypto revolution. Loves the embassy.
-
-+person('eli-sklar.jpg', 'Eli Sklar', 'http://www.linkedin.com/in/sklar').
-  Started a number of projects in the bitcoin ecosystem, created and currently managing the Israeli bitcoin community and
-  co-founded the Israeli Bitcoin Foundation. Designer, developer and hacker.
 
 +person('sarah.png', 'Sarah Wisner').
   Enthusiast & activist , here to watch the future flourish live at our door step and help people connect.
