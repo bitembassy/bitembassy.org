@@ -9,6 +9,7 @@ baseurl: /
 root: /
 theme: landscape
 twitter: BitcoinemBassy
+github_path: "https://github.com/bitembassy/bitembassy.org/blob/master/source/"
 
 new_post_name: :category/:year-:month-:day-:title.md
 permalink: :category/:year-:month-:day-:title.html
