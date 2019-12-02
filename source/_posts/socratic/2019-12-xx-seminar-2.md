@@ -8,7 +8,15 @@ for more details.
 
 ## Research
 
+- [Bitcoin’s Initial Block Download](https://blog.bitmex.com/bitcoins-initial-block-download/)
+
 ## CVE & InfoSec
+
+- [795-bit RSA has been factored](https://lists.gforge.inria.fr/pipermail/cado-nfs-discuss/2019-December/001139.html) (RSA Number 240 of the RSA Factoring Challenge)
+
+### Alts
+
+- [51% attack on Vertcoin](https://gist.github.com/metalicjames/f2acdb9ef448ec5298173b36c7c54133)
 
 ## Mailing Lists
 
@@ -18,6 +26,15 @@ for more details.
 
 ## BIPs & specs
 
+
+### BIPs
+
+- [`OP_CHECKTEMPLATEVERIFY` BIP draft](https://github.com/JeremyRubin/bips/blob/ctv/bip-ctv.mediawiki) (previously `OP_SECURETHEBAG`, [announcement](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2019-November/017494.html), [utxos.org](https://utxos.org/))
+
+### BOLTs
+
+- [Watchtower BOLT proposal](https://lists.linuxfoundation.org/pipermail/lightning-dev/2019-November/002350.html)
+
 ## Optech
 
 ## Network Data & Tools
@@ -26,7 +43,11 @@ for more details.
 
 ### Bitcoin Core
 
+- [\#17624: Fix an uninitialized read in ProcessMessage ](https://github.com/bitcoin/bitcoin/pull/17624) (merged)
+
 ### c-lightning
+
+- [\#3260: `createonion` and `sendonion` RPC commands](https://github.com/ElementsProject/lightning/pull/3260) (merged)
 
 ### lnd
 
