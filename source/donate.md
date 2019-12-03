@@ -5,7 +5,7 @@ alias: donate/index.html
 
 <div class="center">
 
-We are accepting Lightning and on-chain donations – every satoshi will be invested back in to the community.
+We are accepting Lightning and on-chain donations, every satoshi will be invested back into the community.
 
 <form method="POST" target="_blank" action="https://btcpay.ln.bitembassy.org/api/v1/invoices">
     <input type="hidden" name="storeId" value="ExbsGv3DAtRwYaxSQJUWK3A39iMcjExFsRTSVcsLqVEG" />
