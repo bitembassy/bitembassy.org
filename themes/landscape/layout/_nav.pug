@@ -5,14 +5,12 @@ nav.site-navigation.main-navigation(role='navigation')
   .menu-main-menu-container
     ul#menu-main-menu.menu
       li.menu-item: a(href='/') Home
-      li.menu-item
-        a(href='#') Activities
-        ul.sub-menu
-          li.menu-item: a Workshops
-            ul.sub-menu
-              li.menu-item: a(href='https://github.com/bitembassy/home-node') Domestic full node workshop
-          li.menu-item: a(href='socratic/') Socratic seminars
-      //-
+      li.menu-item: a(href='socratic/') Socratic seminars
+      li.menu-item: a(href='https://github.com/bitembassy/home-node') DIY Node
+      li.menu-item: a(href='reach-us.html') Find us      
+      li.menu-item: a(href='donate.html') Donate
+      li.menu-item: span(title="Live rate").btc  1BTC = 1BTC
+//-
         li.menu-item
           a(href='about.html') About
           ul.sub-menu
@@ -31,9 +29,3 @@ nav.site-navigation.main-navigation(role='navigation')
         a(href='resources/') Resources
         ul.sub-menu
           //- li.menu-item: a(href='reach-us.html#hours') Embassy Events
-      li.menu-item
-        a(href='reach-us/') Reach Us
-        ul.sub-menu
-          li.menu-item: a(href='reach-us.html') Contact
-          li.menu-item: a(href='donate.html') Donate
-      li.menu-item: span(title="Live rate").btc  1BTC = 1BTC
