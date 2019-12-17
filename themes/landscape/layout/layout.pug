@@ -17,7 +17,7 @@ head
   meta(property='og:site_name', content=config.title)
 
   if page.share_img || config.share_img
-    meta(property='og:image', content=url_for(page.share_img || config.share_img))
+    meta(property='og:image', content=full_url_for(page.share_img || config.share_img))
 
   if config.twitter
     meta(name='twitter:site', content='@'+config.twitter)
@@ -61,4 +61,3 @@ body.home.page.page-id-7.page-template-default
       br
       a(rel='license', href='http://creativecommons.org/licenses/by-nc/4.0/')
         img(alt='Creative Commons License', style='border-width:0;margin-top:1em;', src='https://i.creativecommons.org/l/by-nc/4.0/88x31.png')
-

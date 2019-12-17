@@ -5,11 +5,13 @@
 title: Bitembassy TLV
 author: Bitembassy TLV
 timezone: Asia/Jerusalem
+url: "https://www.bitembassy.org"
 baseurl: /
 root: /
 theme: landscape
 twitter: BitcoinemBassy
 github_path: "https://github.com/bitembassy/bitembassy.org/blob/master/source/"
+share_img: '/img/og-image.png'
 
 new_post_name: :category/:year-:month-:day-:title.md
 permalink: :category/:year-:month-:day-:title.html
