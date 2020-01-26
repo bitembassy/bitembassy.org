@@ -5,10 +5,18 @@ alias: donate/index.html
 
 <div class="center">
 
-[![Bitcoin address QR](img/donate-450x365.jpg)](https://www.smartbit.com.au/address/1EMBaSSyxMQPV2fmUsdB7mMfMoocgfiMNw)
+We are accepting Lightning and on-chain donations, every satoshi will be invested back into the community.
 
-We are accepting donations – every satoshi will be invested back in to the community.
-
-[1EMBaSSyxMQPV2fmUsdB7mMfMoocgfiMNw](https://www.smartbit.com.au/address/1EMBaSSyxMQPV2fmUsdB7mMfMoocgfiMNw)
-
+<form method="POST" target="_blank" action="https://btcpay.ln.bitembassy.org/api/v1/invoices">
+    <input type="hidden" name="storeId" value="7c8Z57eXyJ36ZbaAJr4LBdZjiy62TrJLBJiQFFAKKVrU" />
+    <input type="hidden" name="browserRedirect" value="https://www.bitembassy.org/thankyou.html" />
+    <input id="btcpay-input-price" name="price" placeholder="amount" type="number" step="any" min="0" oninput="event.preventDefault();isNaN(event.target.value) ? document.querySelector('#btcpay-input-price').value = 0 : event.target.value"  />
+    <select name="currency">
+        <option value="BTC">BTC</option>
+        <option value="USD">USD</option>
+        <option value="ILS" selected>ILS</option>
+    </select>
+    <input placeholder="notes?" name="orderId" value="" />
+    <input type="image" class="submit" name="submit" src="/img/pay.svg" style="width:130px" alt="Pay with BtcPay">
+</form>
 </div>
