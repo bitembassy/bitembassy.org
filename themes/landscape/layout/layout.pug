@@ -30,34 +30,39 @@ head
 
 body.home.page.page-id-7.page-template-default
   #page.hfeed.site
+    #wrap
+      header#masthead.site-header(role='banner')
+        include _nav.pug
+        //-
+          #logo(style='top:80px;')
+            a(href='/', title='Bitembassy TLV', rel='home')
+              h2.site-title(style='color:#FFFFFF;')
+                | Bitcoin emBassy TLV
+                br
+                span.hebrew שגרירות הביטקוין
+              img(style='align:center;', src='img/logo-inverted.png', width='96', height='80')
 
-    header#masthead.site-header(role='banner')
-      include _nav.pug
-      //-
-        #logo(style='top:80px;')
-          a(href='/', title='Bitembassy TLV', rel='home')
-            h2.site-title(style='color:#FFFFFF;')
-              | Bitcoin emBassy TLV
-              br
-              span.hebrew שגרירות הביטקוין
-            img(style='align:center;', src='img/logo-inverted.png', width='96', height='80')
+      #main.site-main
+        #primary.content-area
+          != body
 
-    #main.site-main
-      #primary.content-area
-        != body
+      footer#colophon.site-footer(role='contentinfo')
+        .site-info
+          //-
+            span(style='font-size:0.75em;')
+              | Exchange rate by
+              a(href='http://bitcoinaverage.com/', target='blank') BitcoinAverage
+            br
+          |       Bitcoin emBassy TLV, Since 2013
+          span.sep= ' '
+          a(href='reach-us.html') Contact us
+          br
+          small #[a(href = config.github_path + page.source) Edit this page] on GitHub
+          br
+          a(rel='license', href='http://creativecommons.org/licenses/by-nc/4.0/')
+            img(alt='Creative Commons License', style='border-width:0;margin-top:1em;', src='https://i.creativecommons.org/l/by-nc/4.0/88x31.png')
+      
+    include _partial/mobile-nav
 
-  footer#colophon.site-footer(role='contentinfo')
-    .site-info
-      //-
-        span(style='font-size:0.75em;')
-          | Exchange rate by
-          a(href='http://bitcoinaverage.com/', target='blank') BitcoinAverage
-        br
-      |       Bitcoin emBassy TLV, Since 2013
-      span.sep= ' '
-      a(href='reach-us.html') Contact us
-      br
-      small #[a(href = config.github_path + page.source) Edit this page] on GitHub
-      br
-      a(rel='license', href='http://creativecommons.org/licenses/by-nc/4.0/')
-        img(alt='Creative Commons License', style='border-width:0;margin-top:1em;', src='https://i.creativecommons.org/l/by-nc/4.0/88x31.png')
+script(src='js/jquery-3.4.1.min.js')
+script(src='js/script.js')

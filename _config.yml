@@ -13,6 +13,15 @@ twitter: BitcoinemBassy
 github_path: "https://github.com/bitembassy/bitembassy.org/blob/master/source/"
 share_img: '/img/og-image.png'
 
+# Header
+menu:
+  Home: /
+  Activities: \#
+  Socratic Seminars: /socratic
+  Domestic Node: https://github.com/bitembassy/home-node
+  Reach us: /reach-us.html
+  Donate: /donate.html
+
 new_post_name: :category/:year-:month-:day-:title.md
 permalink: :category/:year-:month-:day-:title.html
 category_dir: ''

@@ -1,0 +1,4 @@
+nav#mobile-nav
+  - for (var i in theme.menu)
+    a.mobile-nav-link(href=url_for(theme.menu[i])) 
+      = i

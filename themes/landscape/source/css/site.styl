@@ -1,7 +1,6 @@
 #masthead
   background #111 url(../img/header_big.jpg ) center 0 no-repeat
   margin-top 0
-  padding-bottom 0
   max-width 100%
   height 450px
 
@@ -90,6 +89,7 @@ div.main
 
 .btc
   color #e7d7d7;
+  font-weight: bold;
   display: inline-block;
   text-decoration: none;
   padding: 10px 6px 10px 21px;
@@ -103,5 +103,77 @@ div.main
     max-width 100%
     height 330px
 
-    ul.menu
-	    line-height normal;
+#main-nav-toggle
+  display: none
+  margin: -10px 0
+  &:before
+    content: "\f0c9"
+  @media mq-mobile
+    display: block
+
+$nav-link
+  float: left
+  color: #fff
+  opacity: 0.6
+  text-decoration: none
+  text-shadow: 0 1px rgba(0, 0, 0, 0.2)
+  transition: opacity 0.2s
+  display: block
+  padding: 20px 15px
+  &:hover
+    opacity: 1
+
+.nav-icon
+  @extend $nav-link
+  font-family: font-icon
+  text-align: center
+  font-size: font-size
+  width: font-size
+  height: font-size
+  padding: 20px 15px
+  position: relative
+  cursor: pointer
+
+.mobile-nav-on
+  overflow: hidden
+
+#wrap
+  height: 100%
+  width: 100%
+  position: absolute
+  top: 0
+  left: 0
+  transition: 0.2s ease-out
+  z-index: 1
+  background: color-background
+  .mobile-nav-on &
+    left: mobile-nav-width
+
+@media mq-mobile
+  #mobile-nav
+    position: absolute
+    top: 0
+    left: 0
+    width: mobile-nav-width
+    height: 100%
+    background: color-mobile-nav-background
+    border-right: 1px solid #fff
+
+  .mobile-nav-link
+    margin: 10px
+    display: block
+    color: color-grey
+    text-decoration: none
+    padding: 15px 20px
+    font-weight: bold
+    &:hover
+      color: #fff
+
+.menu-main-menu-container
+	@media mq-mobile
+		display: none
+
+  float: left
+
+#sub-nav
+  float: right

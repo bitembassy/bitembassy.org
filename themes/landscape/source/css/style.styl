@@ -1,5 +1,17 @@
 @import 'theme.css'
+@import "_variables"
 @import 'site'
+
+@font-face
+  font-family: FontAwesome
+  font-style: normal
+  font-weight: normal
+  src: url(font-icon-path + ".eot?v=" + font-icon-version)
+  src: url(font-icon-path + ".eot?#iefix&v=" + font-icon-version) format("embedded-opentype"),
+       url(font-icon-path + ".woff2?v=" + font-icon-version) format("woff2"),
+       url(font-icon-path + ".woff?v=" + font-icon-version) format("woff"),
+       url(font-icon-path + ".ttf?v=" + font-icon-version) format("truetype"),
+       url(font-icon-path + ".svg?v=" + font-icon-version + "#fontawesomeregular") format("svg")
 
 .clearfix:after
     content " "
@@ -17,7 +29,7 @@
   h1, h2, h3, h4, h5
     margin-bottom 0.5em
 
-  select 
+  select
     height 35px
     margin-bottom 9px
 
@@ -61,4 +73,3 @@
     display table-cell
     padding 0 5%
     text-align  justify
-

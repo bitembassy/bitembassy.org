@@ -1,15 +1,25 @@
 nav.site-navigation.main-navigation(role='navigation')
+  a#main-nav-toggle.nav-icon
   h1.assistive-text Menu
   .assistive-text.skip-link
     a(href='#conlandscapet', title='Skip to conlandscapet') Skip to conlandscapet
   .menu-main-menu-container
     ul#menu-main-menu.menu
       li.menu-item: a(href='/') Home
-      li.menu-item: a(href='socratic/') Socratic seminars
-      li.menu-item: a(href='https://github.com/bitembassy/home-node') DIY Node
+      li.menu-item
+        a(href='#') Activities
+        ul.sub-menu
+          li.menu-item: a Workshops
+            ul.sub-menu
+              li.menu-item: a(href='https://github.com/bitembassy/home-node') Domestic full node workshop
+          li.menu-item: a(href='socratic/') Socratic seminars
       li.menu-item: a(href='reach-us.html') Reach us
       li.menu-item: a(href='donate.html') Donate
-      li.menu-item: span(title="Live rate").btc  1BTC = 1BTC
+
+  nav#sub-nav
+    span.menu-item(title="Live rate").btc BTC/BTC: 1.00
+    img.menu-item(style='vertical-align: middle; margin: 0 21px ', src='img/logo-inverted.png', width='35')
+
 //-
         li.menu-item
           a(href='about.html') About
