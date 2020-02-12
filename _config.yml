@@ -16,6 +16,7 @@ share_img: '/img/og-image.png'
 # Header
 menu:
   Home: /
+  טיפים: /tips
   Socratic Seminars: /socratic
   Full node workshop: https://github.com/bitembassy/home-node
   Reach us: /reach-us.html
