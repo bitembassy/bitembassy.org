@@ -16,9 +16,8 @@ share_img: '/img/og-image.png'
 # Header
 menu:
   Home: /
-  Activities: \#
   Socratic Seminars: /socratic
-  Domestic Node: https://github.com/bitembassy/home-node
+  Full node workshop: https://github.com/bitembassy/home-node
   Reach us: /reach-us.html
   Donate: /donate.html
 

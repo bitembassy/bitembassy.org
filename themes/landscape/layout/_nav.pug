@@ -7,12 +7,17 @@ nav.site-navigation.main-navigation(role='navigation')
     ul#menu-main-menu.menu
       li.menu-item: a(href='/') Home
       li.menu-item
-        a(href='#') Activities
+        a(href='#') Activities 
+        a.nav-arrow-down
         ul.sub-menu
-          li.menu-item: a Workshops
-            ul.sub-menu
-              li.menu-item: a(href='https://github.com/bitembassy/home-node') Domestic full node workshop
           li.menu-item: a(href='socratic/') Socratic seminars
+          li.menu-item: a(href='https://github.com/bitembassy/home-node') Full node workshop
+          
+          //- ul.sub-menu
+            li: a.nav-arrow-right Workshops
+              ul.sub-menu
+                li.menu-item: a(href='https://github.com/bitembassy/home-node') Domestic full node
+            li.menu-item: a(href='socratic/') Socratic seminars 
       li.menu-item: a(href='reach-us.html') Reach us
       li.menu-item: a(href='donate.html') Donate
 
