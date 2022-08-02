@@ -13,6 +13,9 @@ head
 
   if page.description || config.description
     meta(name='description' content=page.description || config.description)
+  
+  if page.web_app
+    meta(name="mobile-web-app-capable", content="yes")
 
   meta(property='og:site_name', content=config.title)
 
