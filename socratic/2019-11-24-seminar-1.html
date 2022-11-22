@@ -1,0 +1,175 @@
+<!DOCTYPE html5><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width, initial-scale=1"/><base href="/"/><title>Socratic Seminar 1 - Nov 24th 2019 | Bitcoin emBassy TLV</title><meta property="og:site_name" content="Bitcoin emBassy TLV"/><meta property="og:image" content="https://www.bitembassy.org/img/og-image.png"/><meta name="twitter:site" content="@BitcoinemBassy"/><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/socratic.css"><meta name="generator" content="Hexo 4.0.0"></head><body class="home page page-id-7 page-template-default"><div class="hfeed site" id="page"><div id="wrap"><header class="site-header" id="masthead" role="banner"><nav class="site-navigation main-navigation" role="navigation"><a class="nav-icon" id="main-nav-toggle"></a><h1 class="assistive-text">Menu</h1><div class="assistive-text skip-link"><a href="#conlandscapet" title="Skip to conlandscapet">Skip to conlandscapet</a></div><div class="menu-main-menu-container"><ul class="menu" id="menu-main-menu"><li class="menu-item"><a href="/">Home</a></li><li class="menu-item"><a href="#">Info </a><a class="nav-arrow-down"></a><ul class="sub-menu"><li class="menu-item"><a href="/faq">שאלות ותשובות נפוצות</a></li><li class="menu-item"><a href="/tips">טיפים חשובים</a></li></ul></li><li class="menu-item"><a href="#">Activities </a><a class="nav-arrow-down"></a><ul class="sub-menu"><li class="menu-item"><a href="socratic/">Socratic seminars</a></li><li class="menu-item"><a href="https://github.com/bitembassy/home-node" target="_blank" rel="noopener">Full node workshop</a></li></ul></li><li class="menu-item"><a href="reach-us.html">Reach us</a></li><li class="menu-item"><a href="donate.html">Donate</a></li></ul></div><nav id="sub-nav"><span class="menu-item btc" title="Live rate">BTC/BTC: 1.00</span><img class="menu-item" style="vertical-align: middle; margin: 0 21px " src="img/logo-inverted.png" width="35"/></nav></nav></header><div class="site-main" id="main"><div class="content-area" id="primary"><article class="hentry"><header class="entry-header"><h1 class="entry-title">Socratic Seminar 1 - Nov 24th 2019</h1></header><div class="entry-content"><p>The seminar will take place on Nov 24th, 18:00, at the embassy.
+See the events on <a href="https://www.facebook.com/events/431182101111911/" target="_blank" rel="noopener">Facebook</a>
+and <a href="https://www.meetup.com/bitcoin-il/events/266559932/" target="_blank" rel="noopener">Meetup.com</a>
+for more details.</p>
+<hr>
+<p>Marked with [p] are priority items, we will go through these first</p>
+<h2 id="releases">Releases</h2>
+<ul>
+<li>[p] <a href="https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-0.19.0.md" target="_blank" rel="noopener">Bitcoin Core 0.19.0.1</a><!-- rpc-only block filters, default bech32 in gui, `avoid_reuse`, block relay only peers, cpfp carve-out. disabled bip70, bloom filters and p2p reject messages --> <sup>*</sup>
+</li>
+<li>[p] <a href="https://github.com/nopara73/WalletWasabi/releases/tag/1.1.9.3nightly1" target="_blank" rel="noopener">Wasabi 1.1.9.3 nightly release</a> (built-in full node <a href="https://twitter.com/nopara73/status/1196069888042754048" target="_blank" rel="noopener">WIP</a>) <sup>*</sup></li>
+<li>[p] <a href="https://twitter.com/BtcpayServer/status/1197387873864957952" target="_blank" rel="noopener">BTCPay 0.1.3.142</a> (integrated <a href="https://github.com/btcpayserver/btcpayserver.vault" target="_blank" rel="noopener">BTCPayServer Vault</a>) <sup>*</sup></li>
+<li>[p] <a href="https://github.com/lightningnetwork/lnd/releases/tag/v0.8.1-beta" target="_blank" rel="noopener">lnd 0.8.1 beta</a> (Bitcoin Core 0.19 compatibility, 0.8 enabled mainnet neutrino) <sup>*</sup></li>
+<li><a href="https://medium.com/@JimmyMow/announcing-zap-desktop-0-6-0-beta-1724d13ae597" target="_blank" rel="noopener">Zap 0.6.0 beta release</a> + 0.6.1, 0.6.2 (lnurl, on-chain fallback, message signing) <sup>*</sup></li>
+</ul>
+<h2 id="research">Research</h2>
+<ul>
+<li>[p] <a href="https://medium.com/blockstream/reducing-bitcoin-transaction-sizes-with-x-only-pubkeys-f86476af05d7" target="_blank" rel="noopener">Reducing Bitcoin Transaction Sizes with x-only Pubkeys</a></li>
+<li>[p] <a href="https://www.veriphi.io/en/software-wallet-analysis" target="_blank" rel="noopener">Bitcoin wallet software comparison</a> (<a href="https://docs.google.com/spreadsheets/d/1aZ1zbaUEzCo9NCctN8-eL2VLIiSdY009tTJvRXDUWEw/htmlview" target="_blank" rel="noopener">table</a>) <sup>*</sup></li>
+<li><a href="https://arxiv.org/pdf/1911.01330.pdf" target="_blank" rel="noopener">Coin Selection with Leverage</a></li>
+<li><a href="https://arxiv.org/abs/1910.12244v1" target="_blank" rel="noopener">An investigation of MMM ponzi scheme on Bitcoin</a></li>
+<li><a href="https://engineering.cmu.edu/thailand/_files/documents/tendrilstaller-block-delay-attack-in-bitcoin.pdf" target="_blank" rel="noopener">TendrilStaller: Block Delay Attack in Bitcoin</a></li>
+</ul>
+<h2 id="cve-infosec">CVE &amp; InfoSec</h2>
+<ul>
+<li>[p] <a href="https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2019-November/017453.html" target="_blank" rel="noopener">CVE-2017-18350 disclosure</a> (buffer overflow)
+<ul>
+<li>see also <a href="https://bitcoincore.org/en/2019/11/08/CVE-2017-18350/" target="_blank" rel="noopener">Bitcoin Core CVE-2017–18350 disclosure</a></li>
+</ul>
+</li>
+<li>[p] <a href="https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2019-November/017443.html" target="_blank" rel="noopener">Bech32 weakness and impact on bip-taproot addresses</a>
+<ul>
+<li>see also <a href="https://bitcoin.stackexchange.com/questions/91602/how-does-the-bech32-length-extension-mutation-weakness-work/91610" target="_blank" rel="noopener">How does the bech32 length-extension mutation weakness work?</a></li>
+</ul>
+</li>
+<li>[p] <a href="https://lists.linuxfoundation.org/pipermail/lightning-dev/2019-November/002288.html" target="_blank" rel="noopener">Potential Minor Sphinx Privacy Leak and Patch</a></li>
+<li>[p] <a href="https://blog.bitmex.com/bitcoins-block-timestamp-protection-rules/" target="_blank" rel="noopener">Bitcoin’s Block Timestamp Protection Rules</a></li>
+<li>[p] <a href="https://blog.coinbase.com/how-coinbase-views-proof-of-work-security-f4ba1a139da0" target="_blank" rel="noopener">How Coinbase views proof of work security</a></li>
+<li>[p] <a href="https://medium.com/shiftcrypto/a-remote-theft-attack-on-trezor-model-t-44127cd7fb5a" target="_blank" rel="noopener">Change theft attack against Trezor Model T</a> <sup>*</sup></li>
+<li>[p] <a href="https://medium.com/shiftcrypto/a-ransom-attack-on-coldcards-change-and-keypath-verification-f3c71461624a" target="_blank" rel="noopener">Change ransom attack against ColdCard</a> <sup>*</sup></li>
+<li><a href="https://arstechnica.com/information-technology/2019/10/attackers-exploit-0day-vulnerability-that-gives-full-control-of-android-phones/" target="_blank" rel="noopener">0-day for popular Android phones</a></li>
+<li><a href="https://medium.com/blockstream/insecure-shortcuts-in-musig-2ad0d38a97da" target="_blank" rel="noopener">Insecure Shortcuts in MuSig</a> <sup>*</sup></li>
+</ul>
+<h3 id="alts">Alts</h3>
+<ul>
+<li>[p] <a href="https://crypto.stanford.edu/timings/" target="_blank" rel="noopener">Side-channel attacks on Zcash and Monero linking nodes with transactions</a> <sup>*</sup>
+<ul>
+<li><a href="https://bitcoinedge.org/transcript/telaviv2019/rebroadcasting" target="_blank" rel="noopener">Similar attacks exists against bitcoin</a> (<a href="https://github.com/bitcoin/bitcoin/pull/16698" target="_blank" rel="noopener">#16698</a> aims to fix this, <a href="https://bitcoincore.reviews/16698.html" target="_blank" rel="noopener">more details</a>)</li>
+</ul>
+</li>
+<li>[p] <a href="https://medium.com/dragonfly-research/breaking-mimblewimble-privacy-model-84bcd67bfe52" target="_blank" rel="noopener">Input-output linkability with MimbleWimble’s Dandelion</a> <sup>*</sup>
+<ul>
+<li><a href="https://medium.com/grin-mimblewimble/factual-inaccuracies-of-breaking-mimblewimbles-privacy-model-8063371839b9" target="_blank" rel="noopener">Grin developers response</a></li>
+</ul>
+</li>
+<li>[p] <a href="https://github.com/monero-project/monero/issues/6151" target="_blank" rel="noopener">Binaries hijack on getmonero.org</a> <sup>*</sup></li>
+<li><a href="https://blog.bitmex.com/bitcoin-cashs-october-2019-hashrate-volatility-increase/" target="_blank" rel="noopener">Bitcoin Cash Hashrate Volatiility</a></li>
+</ul>
+<h2 id="mailing-lists">Mailing Lists</h2>
+<h3 id="lightning-dev">lightning-dev</h3>
+<ul>
+<li>[p] <a href="https://lists.linuxfoundation.org/pipermail/lightning-dev/2019-November/002275.html" target="_blank" rel="noopener">A proposal for up-front payments</a> <sup>*</sup></li>
+<li>[p] <a href="https://lists.linuxfoundation.org/pipermail/lightning-dev/2019-November/002316.html" target="_blank" rel="noopener">Payment points without 2p-ECDSA or Schnorr</a> <sup>*</sup></li>
+</ul>
+<h3 id="lnd">lnd</h3>
+<ul>
+<li><a href="https://groups.google.com/a/lightning.engineering/forum/#!forum/lnd" target="_blank" rel="noopener">New mailing list</a> <sup>*</sup></li>
+</ul>
+<h2 id="bips-specs">BIPs &amp; specs</h2>
+<ul>
+<li>[p] <a href="https://stratumprotocol.org/" target="_blank" rel="noopener">Stratum v2</a> (<a href="https://www.reddit.com/r/Bitcoin/comments/dz1mgp/ama_bitcoin_mining_stratum_v2_we_are_braiins_the/" target="_blank" rel="noopener">AMA</a>) <sup>*</sup></li>
+</ul>
+<h4 id="bips">BIPs</h4>
+<ul>
+<li>[p] <a href="https://github.com/bitcoin/bips/pull/856" target="_blank" rel="noopener">BIP 179: Name for payment recipient identifiers</a></li>
+<li>[p] <a href="https://gist.github.com/AdamISZ/2c13fb5819bd469ca318156e2cf25d79" target="_blank" rel="noopener">BIP ???: SNICKER</a> (draft) <sup>*</sup></li>
+<li><a href="https://github.com/bitcoin/bips/pull/849" target="_blank" rel="noopener">BIP 174 extensions</a></li>
+<li><a href="https://github.com/bitcoin/bips/pull/803" target="_blank" rel="noopener">BIP 325: Signet</a></li>
+<li><a href="https://github.com/bitcoin/bips/pull/851" target="_blank" rel="noopener">BIP 330: Transaction announcements reconciliation</a></li>
+</ul>
+<h4 id="bolts">BOLTs</h4>
+<ul>
+<li>[p] (pending) Addressing Minor Sphinx privacy leak (<a href="https://github.com/lightningnetwork/lightning-onion/pull/40" target="_blank" rel="noopener">#40</a>, <a href="https://github.com/lightningnetwork/lightning-rfc/pull/697" target="_blank" rel="noopener">#697</a>)</li>
+<li><a href="https://lists.linuxfoundation.org/pipermail/lightning-dev/2019-November/002276.html" target="_blank" rel="noopener">BOLT 12: Lightning Offers protocol (discussion)</a></li>
+<li><a href="https://lists.linuxfoundation.org/pipermail/lightning-dev/2019-November/002276.html" target="_blank" rel="noopener">BOLT 11: New optional <code>vendor</code> field (discussion)</a></li>
+<li><a href="https://github.com/lightningnetwork/lightning-rfc/pull/694" target="_blank" rel="noopener">PR: Adding a new optional <code>vendor</code> property to BOLT 11 payment requests</a></li>
+<li><a href="https://github.com/lightningnetwork/lightning-rfc/pull/694" target="_blank" rel="noopener">PR: Variable <code>hop_payload</code> for the sphinx onion</a></li>
+<li><a href="https://lightning.money/spec/bolts/11.html#FMID_454719845FM" target="_blank" rel="noopener">Bolt 11 Diagram</a></li>
+</ul>
+<h4 id="lips">LIPs</h4>
+<ul>
+<li>[p] Litecoin MW extension blocks (<a href="https://github.com/litecoin-project/lips/blob/master/lip-0002.mediawiki" target="_blank" rel="noopener">LIP 002</a>,
+<a href="https://github.com/litecoin-project/lips/blob/master/lip-0003.mediawiki" target="_blank" rel="noopener">LIP 003</a>) <sup>*</sup></li>
+</ul>
+<h2 id="optech">Optech</h2>
+<ul>
+<li>[p] <a href="https://bitcoinops.org/en/schorr-taproot-workshop/" target="_blank" rel="noopener">Schnorr/taproot workshop</a></li>
+<li>[p] <a href="https://bitcoinops.org/en/topics-announcement/" target="_blank" rel="noopener">Topics Index</a></li>
+<li><a href="https://bitcoinops.org/en/newsletters/2019/11/13/" target="_blank" rel="noopener">Newsletter #72</a> &amp; <a href="https://bitcoinops.org/en/newsletters/2019/11/20/" target="_blank" rel="noopener">#73</a></li>
+</ul>
+<h2 id="network-data-tools">Network Data &amp; Tools</h2>
+<ul>
+<li>[p] <a href="https://blog.lopp.net/bitcoin-node-performance-sync-tests/" target="_blank" rel="noopener">2019 Bitcoin Node Performance Tests</a></li>
+<li>[p] <a href="https://hut8mining.com/hut-8-mining-corp-reports-financial-results-for-the-third-quarter-of-2019" target="_blank" rel="noopener">Hut 8 Mining Corp Q3 Financial Report</a></li>
+<li>[p] <a href="https://txstats.com/" target="_blank" rel="noopener">txstats.com</a> (<a href="https://coinmetrics.io/announcing-txstats-com/" target="_blank" rel="noopener">announcement</a>) <sup>*</sup></li>
+<li><a href="https://twitter.com/oxt_btc/status/1192759714427408384" target="_blank" rel="noopener">OXT Landscapes updated</a></li>
+<li><a href="https://thenextweb.com/hardfork/2019/11/04/bitcoin-mining-sucking-georgia-power-grid-dry/" target="_blank" rel="noopener">Bitcoin mining in Georgia</a></li>
+<li><a href="https://mempool.observer/monitor/" target="_blank" rel="noopener">Mempool monitor</a> <sup>*</sup></li>
+</ul>
+<h2 id="pull-requests-and-repo-updates">Pull Requests and repo updates</h2>
+<h4 id="bitcoin-core">Bitcoin Core</h4>
+<ul>
+<li>[p] <a href="https://github.com/bitcoin/bitcoin/pull/17165" target="_blank" rel="noopener">Remove BIP70 support</a></li>
+<li>[p] <a href="https://github.com/bitcoin/bitcoin/pull/17515" target="_blank" rel="noopener">Complete removal of OpenSSL</a> 🍾 <sup>*</sup></li>
+<li>[p] <a href="https://github.com/bitcoin/bitcoin/pull/16110" target="_blank" rel="noopener">Add Android NDK support</a></li>
+<li>[p] <a href="https://github.com/bitcoin/bitcoin/pull/16899" target="_blank" rel="noopener">UTXO snapshot creation (dumptxoutset)</a></li>
+<li>[p] <a href="https://github.com/bitcoin/bitcoin/pull/17449" target="_blank" rel="noopener">fix uninitialized variable nMinerConfirmationWindow</a> <sup>*</sup></li>
+<li><a href="https://github.com/bitcoin/bitcoin/pull/16943" target="_blank" rel="noopener">Add generatetodescriptor RPC</a></li>
+<li><a href="https://github.com/bitcoin/bitcoin/pull/15934" target="_blank" rel="noopener">Merge settings one place instead of five places</a>
+<ul>
+<li>see also <a href="https://github.com/bitcoin/bitcoin/pull/15935" target="_blank" rel="noopener">Add settings.json persistent settings storage</a></li>
+<li>see also <a href="https://github.com/bitcoin/bitcoin/pull/15936" target="_blank" rel="noopener">Unify bitcoin-qt and bitcoind persistent settings</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/bitcoin/bitcoin/pull/15931" target="_blank" rel="noopener">Remove GetDepthInMainChain dependency on locked chain interface</a>
+<ul>
+<li>see also <a href="https://github.com/bitcoin/bitcoin/pull/16426" target="_blank" rel="noopener">Reverse cs_main, cs_wallet lock order and reduce cs_main locking</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/bitcoin/bitcoin/pull/17437" target="_blank" rel="noopener">Expose block height of wallet transactions via RPC</a></li>
+</ul>
+<h4 id="c-lightning">c-lightning</h4>
+<ul>
+<li>[p] <a href="https://github.com/ElementsProject/lightning/releases/tag/v0.7.3" target="_blank" rel="noopener">Release: v0.7.3: Bitcoin’s Proof of Stake</a></li>
+<li>[p] <a href="https://github.com/ElementsProject/lightning/pull/3246" target="_blank" rel="noopener">Fix potential Sphinx privacy data leak</a></li>
+<li><a href="https://github.com/lightningnetwork/lnd/pull/3739" target="_blank" rel="noopener">routing: last hop restriction</a> <sup>*</sup></li>
+<li><a href="https://github.com/ElementsProject/lightning/pull/2924" target="_blank" rel="noopener">Multiple DB support for C-Lightning</a></li>
+<li><a href="https://github.com/ElementsProject/lightning/pull/2924" target="_blank" rel="noopener">Postgres driver for backend DB</a></li>
+<li><a href="https://github.com/vincenzopalazzo/JRPClightning" target="_blank" rel="noopener">JRPCLightning: Java Wrapper for C-Lightning RPC API</a></li>
+<li><a href="https://github.com/ElementsProject/lightning/pull/3223" target="_blank" rel="noopener">Expose the channel close-to address via RPC</a></li>
+<li><a href="https://github.com/ElementsProject/lightning/pull/3186" target="_blank" rel="noopener"><code>hsmtool</code> now built-in</a></li>
+</ul>
+<h4 id="lnd-v2">lnd</h4>
+<ul>
+<li>[p] <a href="https://github.com/lightningnetwork/lnd/pull/3442" target="_blank" rel="noopener">Manually construct packets for simple multipath payment</a> <sup>*</sup></li>
+<li><a href="https://github.com/lightningnetwork/lnd/pull/1160" target="_blank" rel="noopener">Add ability to create new Macaroons</a></li>
+<li><a href="https://github.com/lightningnetwork/lnd/blob/13b56d5849a9495ed11d6928665115e88cd1d9b0/rpcserver.go#L209" target="_blank" rel="noopener">Macaroon Entities and Actions</a></li>
+<li><a href="https://github.com/lightningnetwork/lnd/pull/3462" target="_blank" rel="noopener">Improve the probabilistic estimation for untried connections</a></li>
+<li><a href="https://github.com/lightningnetwork/lnd/issues/3670" target="_blank" rel="noopener">(pending) Allow custom data fields in the htlc payload</a></li>
+<li>Addressing Bitcoin Core 0.19 compatibility (<a href="https://github.com/lightningnetwork/lnd/pull/3462" target="_blank" rel="noopener">#3625</a>, <a href="https://github.com/lightningnetwork/lnd/pull/3462" target="_blank" rel="noopener">#3649</a>)</li>
+</ul>
+<h4 id="eclair">Eclair</h4>
+<ul>
+<li>[p] <a href="https://github.com/ACINQ/eclair/pull/1153" target="_blank" rel="noopener">Experimental support for multipath payments</a></li>
+<li><a href="https://github.com/ACINQ/eclair/pull/1209" target="_blank" rel="noopener">Creating and decrypting trampoline onions</a></li>
+</ul>
+<h2 id="miscellaneous">Miscellaneous</h2>
+<ul>
+<li>[p] <a href="https://blog.lightning.engineering/posts/2019/11/07/routing-guide-2.html" target="_blank" rel="noopener">Node Operator’s Guide to the Lightning Galaxy, Part 2: Node Scoring and Pathfinding</a></li>
+<li>[p] <a href="https://github.com/joostjager/whatsat" target="_blank" rel="noopener">WhatSat: End-to-end encrypted, onion-routed, censorship-resistant, peer-to-peer instant messaging over Lightning</a></li>
+<li>[p] <a href="https://github.com/jamaljsr/polar" target="_blank" rel="noopener">Polar: One-click Bitcoin Lightning networks for local app development &amp; testing</a></li>
+<li>[p] <a href="https://medium.com/blockstream/c-lightning-plugins-04-the-listpayments-plugin-a04c2427c31b" target="_blank" rel="noopener">c-lightning Plugins 04: The listpayments Plugin</a></li>
+<li>[p] <a href="https://medium.com/blockstream/c-lightning-plugins-05-probe-plugin-results-984a18745e93" target="_blank" rel="noopener">c-lightning Plugins 05: Probe Plugin Results</a> <sup>*</sup></li>
+<li>[p] <a href="https://powswap.com/" target="_blank" rel="noopener">POWSWAP</a> (<a href="https://twitter.com/SomsenRuben/status/1194993848180568064" target="_blank" rel="noopener">actual explanation of the technical mechanism</a> by Ruben Somsen) <sup>*</sup></li>
+<li>[p] <a href="https://mobile.twitter.com/jfnewbery/status/1196460056415522817" target="_blank" rel="noopener">0.5M UTXO cleanup</a> <sup>*</sup></li>
+<li>[p] Bitfinex support for <a href="https://www.bitfinex.com/posts/427" target="_blank" rel="noopener">bech32 withdrawals</a> and <a href="https://www.bitfinex.com/posts/429" target="_blank" rel="noopener">deposits</a> <sup>*</sup></li>
+<li>[p] <a href="https://bitcoinmagazine.com/articles/op-ed-want-to-learn-how-to-contribute-to-bitcoin-try-a-good-first-issue" target="_blank" rel="noopener">Want to Learn How to Contribute to Bitcoin? Try a ‘Good First Issue’</a> <sup>*</sup></li>
+<li><a href="https://github.com/Ride-The-Lightning/RTL-Design#rtl-design" target="_blank" rel="noopener">RTL-Design: git workflow for design work on Ride The Lightning</a></li>
+<li><a href="https://twitter.com/roasbeef/status/1190098624010522624" target="_blank" rel="noopener">LSAT + Joule Demo</a></li>
+<li><a href="https://medium.com/breez-technology/introducing-lightning-rod-2e0a40d3e44a" target="_blank" rel="noopener">Introducing Lightning Rod</a></li>
+</ul>
+<hr>
+<p>h/t: This seminar was inspired by <a href="https://bitdevs.org/" target="_blank" rel="noopener">BitDevs NYC</a> and is based on the subject list for the
+<a href="https://bitdevs.org/2019-11-13-socratic-seminar-98" target="_blank" rel="noopener">BitDevs Socratic Seminar 98</a> (additions marked with <sup>*</sup>).</p>
+</div></article></div></div><footer class="site-footer" id="colophon" role="contentinfo"><div class="site-info">      Bitcoin emBassy TLV, Since 2013<span class="sep"> </span><a href="reach-us.html">Contact us</a><br/><small><a href="https://github.com/bitembassy/bitembassy.org/blob/master/source/_posts/socratic/2019-11-24-seminar-1.md" target="_blank" rel="noopener">Edit this page</a> on GitHub</small><br/><a rel="license noopener" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0;margin-top:1em;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/></a></div></footer></div><nav id="mobile-nav"><a class="mobile-nav-link" href="/"> Home</a><a class="mobile-nav-link" href="/tips"> טיפים</a><a class="mobile-nav-link" href="/faq"> שאלות נפוצות</a><a class="mobile-nav-link" href="/socratic"> Socratic Seminars</a><a class="mobile-nav-link" href="https://github.com/bitembassy/home-node" target="_blank" rel="noopener"> Full node workshop</a><a class="mobile-nav-link" href="/reach-us.html"> Reach us</a><a class="mobile-nav-link" href="/donate.html"> Donate</a></nav></div></body><script src="js/jquery-3.4.1.min.js"></script><script src="js/script.js"></script>
