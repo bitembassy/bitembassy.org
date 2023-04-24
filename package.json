@@ -10,7 +10,7 @@
     "version": "4.0.0"
   },
   "dependencies": {
-    "hexo": "^4.0.0",
+    "hexo": "^5.4.1",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^2.1.0",
     "hexo-directory-category": "^1.0.7",
